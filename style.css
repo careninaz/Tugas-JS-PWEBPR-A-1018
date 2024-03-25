@@ -1,0 +1,326 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 1280px;
+    height: 832px;
+    background: #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  .landing-page, .page-2, .page-3 {
+    display: none;
+  }
+  
+  .rectangle-1 {
+    position: absolute;
+    width: 610px;
+    height: 329px;
+    left: 335px;
+    top: 304px;
+    background: #DBDBDB;
+    border-radius: 30px;
+  }
+  
+  .yakin-kan {
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 421px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .group-2 {
+    position: absolute;
+    width: 475px;
+    height: 326px;
+    left: 406px;
+    top: 256px;
+  }
+  
+  .image-1 {
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 530px;
+    top: 256px;
+    background-color: #DBDBDB; 
+  }
+  
+  .frame-2 {
+    position: absolute;
+    width: 475px;
+    height: 126px;
+    left: 406px;
+    top: 456px;
+  }
+  
+  .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 475px;
+    height: 126px;
+    left: 406px;
+    top: 456px;
+  }
+  
+  .group-1 {
+    width: 475px;
+    height: 56px;
+  }
+  
+  .rectangle-2 {
+    position: absolute;
+    width: 475px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #FEEEE2;
+    border-radius: 20px;
+  }
+  
+  .apakah-anda {
+    position: absolute;
+    width: 313px;
+    height: 29px;
+    left: 77px;
+    top: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .frame-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    width: 339px;
+    height: 41px;
+    margin-top: 10px;
+  }
+  
+  .group-3, .group-5 {
+    width: 157px;
+    height: 41px;
+  }
+  
+  .rectangle-4, .rectangle-3 {
+    cursor: pointer;
+  }
+  
+  .rectangle-4 {
+    position: absolute;
+    width: 157px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    background: #6FD240;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle-3 {
+    position: absolute;
+    width: 157px;
+    height: 41px;
+    left: 182px;
+    top: 0px;
+    background: #E12E2E;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.page-2 {
+    display: none; 
+  }
+  
+  .rectangle-1-page2 {
+    position: absolute;
+    width: 610px;
+    height: 329px;
+    left: 335px;
+    top: 304px;
+    background: #E12E2E;
+    border-radius: 30px;
+  }
+  
+  .yakin-kan-page2 {
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 421px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .group-2-page2 {
+    position: absolute;
+    width: 475px;
+    height: 326px;
+    left: 406px;
+    top: 256px;
+  }
+  
+  .image-3 {
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 530px;
+    top: 256px;
+    background-color: #E12E2E;
+  }
+  
+  .rectangle-2-page2 {
+    position: absolute;
+    width: 475px;
+    height: 56px;
+    left: 406px;
+    top: 456px;
+    background: #FEEEE2;
+    border-radius: 20px;
+  }
+  
+  .anda-berbohong {
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 421px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .anda-adalah-seorang-teknisi {
+    position: absolute;
+    width: 313px;
+    height: 29px;
+    left: 483px;
+    top: 473px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+
+  .page-3 {
+    display: none; 
+  }
+  
+  .rectangle-1-page3 {
+    position: absolute;
+    width: 610px;
+    height: 329px;
+    left: 335px;
+    top: 304px;
+    background: #6FD240;
+    border-radius: 30px;
+  }
+  
+  .yakin-kan-page3 {
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 421px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .group-2-page3 {
+    position: absolute;
+    width: 475px;
+    height: 326px;
+    left: 406px;
+    top: 256px;
+  }
+  
+  .image-2 {
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 530px;
+    top: 256px;
+    background-color: #6FD240;
+  }
+  
+  .rectangle-2-page3 {
+    position: absolute;
+    width: 475px;
+    height: 56px;
+    left: 406px;
+    top: 456px;
+    background: #FEEEE2;
+    border-radius: 20px;
+  }
+  
+  .anda-benar {
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 421px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .anda-adalah-seorang-mahasiswa {
+    position: absolute;
+    width: 313px;
+    height: 29px;
+    left: 483px;
+    top: 473px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }   
