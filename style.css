@@ -11,7 +11,7 @@ body, html {
     margin: 0 auto;
   }
   
-  .landing-page, .page-2, .page-3 {
+  .page-2, .page-3 {
     display: none;
   }
   
