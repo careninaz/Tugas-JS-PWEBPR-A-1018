@@ -1,64 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1018 - Carenina Zahra</title>
-  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
 </head>
-<body>
-  <div class="container">
-    <!-- Halaman Pertama -->
-    <div class="landing-page" id="landingPage">
-      <div class="rectangle-1"></div>
-        <img src="Detective.png" alt="Detective">
-      <h2 class="yakin-kan">Yakin kan Profesi Anda!</h2>
-      <div class="group-2">
-        <div class="image-1"></div>
-      </div>
-      <div class="frame-2"></div>
-      <div class="frame-4">
-        <div class="group-1">
-          <div class="rectangle-2">
-            <h3 class="apakah-anda">Apakah Anda seorang Detective?</h3>
-            <div class="frame-3">
-              <div class="group-3">
-                <div class="rectangle-4" onclick="changePage('yes')">Iya!!</div>
-              </div>
-              <div class="group-5">
-                <div class="rectangle-3" onclick="changePage('no')">Tidak!!</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Halaman Kedua -->
-    <div class="page-2" id="page2">
-      <div class="rectangle-1-page2"></div>
-      <img src="Teknisi.png" alt="Teknisi">
-      <h2 class="yakin-kan-page2">Anda Berbohong!</h2>
-      <div class="group-2-page2">
-        <div class="image-3"></div>
-      </div>
-      <div class="rectangle-2-page2"></div>
-      <h3 class="anda-berbohong">Anda adalah seorang Teknisi</h3>
-    </div>
-
-    <!-- Halaman Ketiga -->
-    <div class="page-3" id="page3">
-      <div class="rectangle-1-page3"></div>
-      <img src="Mahasiswa.png" alt="Mahasiswa">
-      <h2 class="yakin-kan-page3">Anda Benar!</h2>
-      <div class="group-2-page3">
-        <div class="image-2"></div>
-      </div>
-      <div class="rectangle-2-page3"></div>
-      <h3 class="anda-benar">Anda adalah seorang Mahasiswa</h3>
+<body class="h-screen flex flex-col">
+  <div class="container flex justify-center items-center flex-col mx-auto">
+    <div id="judul" class="font-[poppins] font-bold text-[32px] mt-64 mb-16">Yakin kan Profesi Anda!</div>
+    <div class="main-container bg-[#DBDBDB] w-[610px] h-[329px] flex justify-center items-center rounded-[30px] flex-col">
+      <img id="image" src="./resources/image 1.png" alt="" class="w-[219px] -mt-[165px]">
+      <p class="flex -mt-3 bg-[#FEEEE2] w-[475px] h-[56px] justify-center items-center font-[poppins] font-bold  rounded-[20px]">Apakah anda seorang Detective?</p>
+      <button id="iya" type="button" class="grid absolute font-[poppins] font-bold text-center content-center bg-[#6FD240] w-[157px] h-[41px] rounded-[12px] mt-[200px] -ml-[200px]"  ><p>Iya!!</p></button>
+      <button id="tidak" type="button" class="grid absolute font-[poppins] font-bold text-center content-center bg-[#E12E2E] w-[157px] h-[41px] rounded-[12px] mt-[200px] ml-[200px] text-white"><p>Tidak!!</p></button>
     </div>
   </div>
-
-  <script src="script.js"></script>
+  <script src="script.js">
+  </script>
 </body>
 </html>
