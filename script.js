@@ -5,7 +5,7 @@ document.getElementById('iya').addEventListener('click', function(){
         button.remove();
     });
     var img = document.getElementById('image');
-    img.src = './resources/Teknisi.png';
+    img.src = 'Teknisi.png';
     document.getElementById('judul').innerText = 'Anda Berbohong!';
     document.querySelector('.container > .main-container').style.backgroundColor = '#E12E2E';
     document.querySelector('.container > .main-container > p').innerText = 'Anda adalah seorang Teknisi'
@@ -16,7 +16,7 @@ document.getElementById('tidak').addEventListener('click', function(){
         button.remove();
     });
     var img = document.getElementById('image');
-    img.src = './resources/Mahasiswa.png';
+    img.src = 'Mahasiswa.png';
     document.getElementById('judul').innerText = 'Anda Benar!';
     document.querySelector('.container > .main-container').style.backgroundColor = '#6FD240';
     document.querySelector('.container > .main-container > p').innerText = 'Anda adalah seorang Mahasiswa'
