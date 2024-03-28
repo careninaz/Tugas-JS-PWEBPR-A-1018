@@ -5,7 +5,7 @@ document.getElementById('iya').addEventListener('click', function(){
         button.remove();
     });
     var img = document.getElementById('image');
-    img.src = 'Teknisi.png';
+    img.src = 'teknisi.png';
     document.getElementById('judul').innerText = 'Anda Berbohong!';
     document.querySelector('.container > .main-container').style.backgroundColor = '#E12E2E';
     document.querySelector('.container > .main-container > p').innerText = 'Anda adalah seorang Teknisi'
